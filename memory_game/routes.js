@@ -10,7 +10,11 @@ module.exports = function(app){
 	app.get('/', login.loginGet);
 	app.post('/', login.loginPost);
 	app.get('/grid', function (req, res) {
-		res.render('grid');
+		if (req.session.userid) {
+				res.render('grid');
+		} else {
+			res.redirect(303, '/');
+		}
 	});
 	app.get('/levels', levels.xhr);
 	app.post('/levels', levels.postXhr);

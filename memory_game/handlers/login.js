@@ -39,14 +39,14 @@ exports.loginPost = function(req, res){
 					console.log("User not found");
 				}
 			}
-				if (success === true) {
-					console.log("XXtrue");
-					req.session.userid = req.body.id;
-					res.redirect(303, '/grid');
-				} else {
-					console.log("XXfalse");
-					res.redirect(303, '/');
-				}
+			if (success === true) {
+				console.log("XXtrue");
+				req.session.userid = req.body.id;
+				res.redirect(303, '/grid');
+			} else {
+				console.log("XXfalse");
+				res.redirect(303, '/');
+			}
 		}
 	);
 };
