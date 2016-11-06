@@ -11,9 +11,17 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+
 	display: block;
 }
 body {
+	/*background-size: 100% auto;*/
+	
+	background : url("/img/new.png") 45%;
+	
+        
+        
+        
 	line-height: 1.2;
 }
 ol { 
@@ -30,6 +38,7 @@ table {
 } 
 /* end reset browser styles */
 .content {
+
    display: flex;
    flex-direction: column;
    align-items: center;
