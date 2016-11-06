@@ -35,7 +35,7 @@ Download the Problem statement [here](https://github.com/Ayushverma8/Memory-Game
 
 # Team Shinigami's
 ![Image of SS1](https://66.media.tumblr.com/avatar_174af6707f98_128.png)
- * [OMKAR](https://github.com/omkar-dsd) 
+ * [AYUSH](https://github.com/ayushverma8) 
  * [NIHAL](https://github.com/nihalsh) 
  * [AKASH](http://github.com/zerocool443) 
 
